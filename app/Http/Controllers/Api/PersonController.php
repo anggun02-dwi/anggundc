@@ -14,11 +14,11 @@ class PersonController extends Controller
      */
     public function index()
     {
-        $person = Person::all();
+        $persons = Person::all();
         return response()->json([
             'status' => true,
             'message' => 'Data berhasil ditemukan',
-            'data' => $person,
+            'data' => $persons,
         ]);
     }
 
