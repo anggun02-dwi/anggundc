@@ -29,8 +29,8 @@ class PersonController extends Controller
     {
         $validator = Validator::make($request->all(), [
             
-            'price'=>'required',
-            'discount'=>'required',
+            'price' => 'required|string',
+             'discount' => 'required|string',
         ]);
         if ($validator->fails()) {
             return response()->json([
@@ -69,8 +69,8 @@ class PersonController extends Controller
     {
         $validator = Validator::make($request->all(), [
             
-            'price'=>'required',
-            'discount'=>'required',
+            'price' => 'required|string',
+             'discount' => 'required|string',
         ]);
         if ($validator->fails()) {
             return response()->json([
