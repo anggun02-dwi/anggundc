@@ -25,8 +25,8 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "//https://anggunuas2222.vercel.app",
-        "APP_KEY": "base64:3UYWwkl6umqZ7fSR3YiwlL1Se2ExG1m7IOEV69bu+H4=",
+        "APP_URL": "//https://anggundc13.vercel.app",
+        "APP_KEY": "base64:oPAYVJ/bLxC8QZeHif7fafmXs6Y8Ohyd6kLD45AtnNA=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
